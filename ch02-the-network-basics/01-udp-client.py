@@ -3,7 +3,7 @@
 import socket
 
 #define target ip address and port
-target_server = ("127.0.0.1",80)
+target_server = ("127.0.0.1",9999)
 
 #create a socket object
 client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
