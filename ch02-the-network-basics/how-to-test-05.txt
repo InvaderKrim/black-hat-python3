@@ -1,0 +1,11 @@
+On Kali Execute:
+"./05-tcp-proxy.py 0.0.0.0 21 <remote_ftp_server> <remote_ftp_port> True
+  - You should now see the message
+    - "[*] Listening on 0.0.0.0:21"
+
+On your local host, open an FTP Client (i.e. FileZilla)
+- connect to your Kali machine on port 21, remember to specify a username
+  and password
+
+Kali will receive the connection, and forward it to your targetted
+remote ftp server. Connection will terminate after login.
